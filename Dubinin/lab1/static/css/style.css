@@ -6,11 +6,7 @@
 }
 
 body {
-	background-image: url('https://habrastorage.org/webt/nt/7c/jd/nt7cjd0jsbu2a37tb3ovyxjgpzy.png');
-	background-position: center center;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
+	background-color: #d4d8ff;
 }
 
 a {
@@ -266,9 +262,26 @@ h1 {
 
 .all-h1 {
 	text-align: center;
-	margin-top: 200px;
+	margin-top: 40px;
 	color: #ffffff;
-	font-size: 100px;
+	font-size: 70px;
+}
+
+.under-main h2 {
+	margin-left: 20px;
+	text-align: center;
+}
+
+.car img {
+	width: 360px;
+	height: 300px;
+}
+.under-main {
+	display: flex;
+	flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .new-post-cont {
